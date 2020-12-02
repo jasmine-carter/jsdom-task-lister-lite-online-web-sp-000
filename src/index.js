@@ -9,4 +9,5 @@ document.querySelector("input[type=submit]").addEventListener("click", function(
   taskUl.appendChild(li);
   event.preventDefault()
 });
+});
   // your code here
