@@ -6,5 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   li.innerText = input
   document.querySelector("input[type=submit]").addEventListener("click", function(event) {
     ul.appendChild(li);
+    event.preventDefault();
   })
 });
