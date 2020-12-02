@@ -7,8 +7,6 @@ let li = document.createElement("li")
 document.querySelector("input[type=submit]").addEventListener("click", function(event){
   li.textContent = input
   taskUl.appendChild(li);
-}, false);
-
-event.preventDefault()
+  event.preventDefault()
 });
   // your code here
